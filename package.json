@@ -9,5 +9,7 @@
   },
   "author": "Nasim Karimi",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "express":"*"
+  }
 }
