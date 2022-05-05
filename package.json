@@ -9,7 +9,5 @@
   },
   "author": "Nasim Karimi",
   "license": "ISC",
-  "dependencies": {
-    "toastr": "^2.1.4"
-  }
+  "dependencies": {}
 }
