@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nassim Karimi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@500&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap" rel="stylesheet">
+<link href="toastr.css" rel="stylesheet"/>
+
+
+  </head>
+  <body>
+<!-- TODO: Fix animations! Keep a simple slide in on page load -->
+<header>
+  <div class="dropdown">
+  <a  class="burger" href=""><img class="burger-icon" src="images/menu.png" alt=""></a>
+  
+  <ul>
+    <a class="nav-link"  href="#about-me">About Me</a>
+    <a class="nav-link" href="#projects">Projects</a>
+    <a class="nav-link" href="#contact">Contact Me</a>
+  </ul>
+</div>
+</header>
+
+<!-- Interesting font works well for "Nassim",
+  but wonder whether something simple and friendly 
+  - like the sans serif in the nav bar would work better for general content? -->
+  
+
+
+
+<div class="top-container">
+  
+
+
+<div class="name section" >
+  <h1><span class="fname">Nassim</span> <span class="lname" > Karimi </span></h1>
+  <p class="description"> Front-end developer and designer</p>
+
+  <a  href="https://twitter.com/NassimKarimi1" type="button" role="button" target="_blank">
+    <img class="icon" src="images/twitter.png" alt="twitterIcon">
+  </a>
+
+  <a  href="https://github.com/Nasimkrm">
+    <img  class="icon" src="images/github-logo.png" alt="github-logo">
+  </a>
+
+  <a href="https://www.linkedin.com/in/nassimkarimi/" target="_blank">
+    <img class="icon" src="images/linkedin.png" alt="linkedin-icon">
+  </a>
+  
+</div>
+<img class="topLogo" src="images/logo.svg" alt="topLogo">
+</div>
+
+  <div id="about-me" class="about section">
+    
+   <h1 class="section-header alice-blue"><span class="about">About</span> Me</h1>
+   <div class="about-content"><img class="profilePic" src="images/crpProfile.png" alt="profilePic">
+    <p class="bio">I'm Nassim. I am a language teacher turned software developer currently based in France. I started my web development journey in 2020 where I signed up for an online full stack development course. I worked on simple projects throughout the course and the power and creativity of software development was what attracted me into learning and doing more.<br><br>
+      
+      My main area of interest is front-end development. Over the past 2 years, I have been deepening my knowledge/getting more comfortable with Html/CSS and JavaScript, as well as other languages I enjoyed working with such as C-which made me more familiar with how the computer architecture and memory works- and Python.<br><br>
+      
+      In my spare time, I enjoy exploring nature, reading and doing sports.</p>
+   
+  </div>
+</div>
+
+
+   <div id="projects" class="projects section">
+
+     <h1 class="section-header projects">Projects</h1>
+<!-- Maybe card hover scale style would work better on whole card rather than just img -->
+     <div class="card-cont">
+      
+      <a href="https://dry-mesa-50050.herokuapp.com/" target="_blank"><div class="card">
+        <img class="card-img" src="images/newsletterProject.png" alt="image">
+        <h3 class="card-title">Newsletter</h3>
+        <p class="card-text">A monthly newsletter about the projects I'm working on.</p>
+
+      </div></a>
+       
+      
+      <a href="https://aqueous-ravine-01459.herokuapp.com/" target="_blank"><div class="card">
+        <img class="card-img" src="images/weatherApp.png" alt="image">
+        <h3 class="card-title">Weather App</h3>
+        <p class="card-text">A weather application using Node.js and EJS.</p>
+
+      </div></a>
+       
+      <div id="blog" class="card">
+        <img  class="card-img" src="images/blog.png" alt="image">
+        <h3 class="card-title">Blog</h3>
+        <p class="card-text">A blog about my journey in web development.</p>
+
+      </div>
+       
+
+     </div>
+
+   </div>
+
+
+
+
+    <div id="contact" class="contact section">
+      <h1 class="section-header contact-me"><span class="contactInOrange">Contact</span> Me</h1>
+<!-- TODO: set "contact-form" width + set inputs to 100% width so they are all equal -->
+  <div class="contact-cont">
+      <form class="contact-form" action="https://formspree.io/f/mgedpbgl" method="post" name="Emailform">
+        <!-- Should Name: be a label rather than plain text? -->
+        <label for="Name">Name: </label> <br><br>
+        <input class="input" type="text" size="19" name="ContactName" placeholder="Name"><br><br>
+        <label for="email">Email address:</label><br><br>
+        <input class="email" type="email" placeholder="Email"><br><br>
+        <label for="Message"> Message: </label> <br><br>
+        <textarea class="input" name="ContactMessage" cols="40" rows="10" placeholder="Message"></textarea>
+        <br><br>
+        <input class="send-btn" type="submit" value="Send">
+        <!-- Does this form work? Can we do it quickly?
+        If not, maybe best to leave it out for now and add it in later -->
+      </form>
+
+      
+  </div>
+
+     
+
+        
+      </div>
+
+      <div class="contactIconsDiv">
+        <a  href="https://twitter.com/NassimKarimi1" type="button" role="button" target="_blank">
+          <img class="icon" src="images/twitter.png" alt="twitterIcon">
+        </a>
+        
+        <a  href="https://github.com/Nasimkrm">
+          <img  class="icon" src="images/github-logo.png" alt="github-logo">
+        </a>
+
+        <a href="https://www.linkedin.com/in/nassimkarimi/" target="_blank">
+          <img class="icon" src="images/linkedin.png" alt="linkedin-icon">
+        </a>
+
+    </div>
+
+      <footer class="footer"> &#169; Nassim Karimi </footer>
+      
+    
+    </div>
+
+    <div id="pop-up">
+      <h2 class="pop-msg"> Coming soon... </h2>
+    </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="animations.js"></script>
+</html>
