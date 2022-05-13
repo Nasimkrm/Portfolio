@@ -115,10 +115,14 @@ footer {
   padding-top: 50px;
 }
 
-.description {
 
+
+.description {
   text-align: center;
 }
+
+    
+
 
 .nav-link:hover::before {
   transform: scale(1.1);
@@ -322,6 +326,7 @@ footer {
   width: 50%;
   line-height: 1.5;
   color: aliceblue;
+  text-align: justify;
 }
 
 /* Responsive styles */
