@@ -334,30 +334,59 @@ footer {
 @media only screen and (max-width: 1000px) {
   header ul {
     flex-direction: column;
+   
     
   }
 
   header ul.open{
-    height: 200px;
-    font-size:2rem;
+    height: 100px;
+    font-size:1rem;
     padding: 20px;
+    
     
   }
 
   .top-container{
     flex-direction: column;
-    justify-content: start;
+    
   }
 
   .name {
     margin: 0;
   }
 
+  .name {
+    padding-top: 200px;
+  }
+
+  .icon{
+    padding-top: 50px;
+  }
+
   .topLogo {
    
-    top: 250px;
-    margin-right: 50px;
+    /* top: 250px;
+    margin-right: 50px; */
+    
+   padding-top: 900px;
    
+  }
+
+  
+
+  .section-header{
+    text-align: center;
+  }
+
+  .about-content{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 }
