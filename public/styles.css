@@ -262,6 +262,7 @@ a:hover {
   color: #F9A826;
   background-color:#2F2E41;
   height: 100vh;
+  min-height: fit-content;
   
  
 }
