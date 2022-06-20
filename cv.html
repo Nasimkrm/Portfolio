@@ -3,6 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nassim Karimi</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
@@ -15,7 +16,7 @@
 
   </head>
   <body>
-<!-- TODO: Fix animations! Keep a simple slide in on page load -->
+
 <header>
   <div class="dropdown">
   <a  class="burger" href=""><img class="burger-icon" src="images/menu.png" alt=""></a>
@@ -30,11 +31,13 @@
 
 
 <div class="top-container">
-  <div class="name section">
+  <!-- <div class="name section"> -->
   
+  <div class="top-container-heading">
   <h1><span class="fname">Nassim</span> <span class="lname" > Karimi </span></h1>
-  <p class="description">Software developer and designer</p>
+  <p>Software developer and designer</p>
  
+  <div class="btn-div">
   <a  href="https://twitter.com/NassimKarimi1" type="button" role="button" target="_blank">
     <img class="icon" src="images/twitter.png" alt="twitterIcon">
   </a>
@@ -46,26 +49,41 @@
   <a href="https://www.linkedin.com/in/nassimkarimi/" target="_blank">
     <img class="icon" src="images/linkedin.png" alt="linkedin-icon">
   </a>
-  
 </div>
-<img class="topLogo" src="images/logo.svg" alt="topLogo">
+</div>
+  <img class="topLogo" src="images/logo.svg" alt="topLogo">
 </div>
 
-  <div id="about-me" class="about section">
+
+
+  <div id="about-me" class="about-section">
     
    <h1 class="section-header alice-blue"><span class="about">About</span> Me</h1>
    
    <div class="about-content">
      <img class="profilePic" src="images/crpProfile.png" alt="profilePic">
-    <p class="bio">Hi! I'm Nassim. I am a language teacher turned software developer currently based in France. I started my development journey in 2020 when I signed up for an online full stack development course. I worked on various projects throughout the course and found that the power and creativity of software development left me hungry to learn more.<br><br>
+     <div class="bio-div">
+    <p>Hi! I'm Nassim. I am a language teacher turned software developer currently based in France. I started my development journey in 2020 when I signed up for an online full stack development course. I worked on various projects throughout the course and found that the power and creativity of software development left me hungry to learn more.<br><br>
       
       Initially, my main area of interest was front-end development and over the past 2 years, I have been deepening my knowledge of Html/CSS and JavaScript. I also enjoyed becoming more familiar with computer architecture, understanding different algorithms and data structures and working with other languages such as C, C++, OCaml and Python.<br><br>
       
       In my spare time, I enjoy exploring nature, reading and doing sports.</p>
-   
+    
+    </div>
   </div>
 
-
+  <div class="skills-section">
+    
+    <img class="skills-icon" src="images/html5-brands.svg" alt="">
+      <img class="skills-icon" src="images/css3-alt-brands.svg" alt="">
+      <img class="skills-icon" src="images/js-brands.svg" alt="">
+      
+      <img class="skills-icon" src="images/react-brands.svg" alt="">
+      <img class="skills-icon" src="images/python-brands.svg" alt="">
+      <img class="skills-icon" src="images/c-solid.svg" alt="">
+      
+   
+  </div>
 </div>
 
 
@@ -117,7 +135,7 @@
 
     <div id="contact" class="contact section">
       <h1 class="section-header contact-me"><span class="contactInOrange">Contact</span> Me</h1>
-<!-- TODO: set "contact-form" width + set inputs to 100% width so they are all equal -->
+
   <div class="contact-cont">
       <form class="contact-form" action="https://formspree.io/f/mgedpbgl" method="post" name="Emailform">
         <!-- Should Name: be a label rather than plain text? -->
@@ -129,8 +147,7 @@
         <textarea class="input" name="ContactMessage" cols="40" rows="10" placeholder="Message"></textarea>
         <br><br>
         <input class="send-btn" type="submit" value="Send">
-        <!-- Does this form work? Can we do it quickly?
-        If not, maybe best to leave it out for now and add it in later -->
+        
       </form>
 
       
@@ -141,7 +158,7 @@
         
       </div>
 
-      <div class="contactIconsDiv">
+      <div class="contact-icons-div">
         <a  href="https://twitter.com/NassimKarimi1" type="button" role="button" target="_blank">
           <img class="icon" src="images/twitter.png" alt="twitterIcon">
         </a>
@@ -156,10 +173,10 @@
 
     </div>
 
-      <footer class="footer"> &#169; Nassim Karimi </footer>
+      <footer class="footer"> &#169; Nassim Karimi - 2022 </footer>
       
     
-    </div>
+    
 
     <div id="pop-up">
       <h2 class="pop-msg"> Coming soon... </h2>
