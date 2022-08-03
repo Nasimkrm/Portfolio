@@ -212,6 +212,8 @@ a:hover {
 #projects {
   
   margin: 0 0 100px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects {
@@ -240,7 +242,13 @@ a:hover {
 
 .card-cont {
   display: flex;
+ 
   justify-content: space-around;
+}
+
+.card-cont-2 {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card-img {
