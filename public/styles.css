@@ -232,6 +232,8 @@ a:hover {
   
 }
 
+
+
 .card-title {
   padding-top: 15px;
 }
@@ -242,14 +244,11 @@ a:hover {
 
 .card-cont {
   display: flex;
- 
+ flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.card-cont-2 {
-  display: flex;
-  justify-content: space-evenly;
-}
+
 
 .card-img {
   
@@ -263,7 +262,8 @@ a:hover {
 .card:hover {
   transform: scale(1.1);
   transition: .3s ease-in;
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #contact {
