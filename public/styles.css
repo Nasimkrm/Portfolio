@@ -1,6 +1,5 @@
 body {
   background-color: #FBF8F1;
-  
   text-align: center;
   margin: 0;
   font-family:'Montserrat', serif;
@@ -8,7 +7,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  /* min-width: fit-content; */
   max-width: 100vw;
   overflow-x: hidden;
   
@@ -18,8 +16,6 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  /* min-width: fit-content; */
-  /* max-width: 100vw; */
   width: 100%;
   overflow-x: hidden;
 }
@@ -96,7 +92,6 @@ a:hover {
 .top-container {
   display: flex;
   justify-content: space-around;
-  /* max-width: 100vw; */
   height: 100vh;
   overflow: hidden;
 }
@@ -113,7 +108,6 @@ a:hover {
   
   width: 600px;
   display: inline-block;
-  
   animation-name: slidein;
   animation-duration: 2.5s;
   animation-direction:reverse;
@@ -141,10 +135,9 @@ a:hover {
   min-height: 100vh;
 }
 
-.alice-blue{
-  color:aliceblue;
-  text-align: left;
-  padding-left: 90px;
+.intro{
+  color: #F9A826;
+  
 }
 
 #about-me {
@@ -159,44 +152,23 @@ a:hover {
 
 .profilePic 
 {
-  display: flex;
-  
-  height: 300px;
+   height: 300px;
 }
 
 .about {
   color: #F9A826;
-  
 }
-
-
 
 .about-section {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   min-height: 100vh;
-  
-}
-
-.about-content {
-  display: flex;
-  justify-content: space-around;
-  
 }
 
 .bio-div {
-  width: 50%;
-  
-  display: flex;
-  align-items: center;
   color: aliceblue;
-  text-align: justify;
-  border: 2px solid white;
-  border-radius: 5px;
+  text-align: center;
   padding: 15px;
-  
 }
 
 .skills-section {
@@ -210,7 +182,6 @@ a:hover {
 }
 
 #projects {
-  
   margin: 0 0 100px 0;
   display: flex;
   flex-direction: column;
@@ -223,16 +194,15 @@ a:hover {
 
 .card {
   margin-top: 40px;
-  width: 300px;
-  height:400px;
+  width: 350px;
+  height:450px;
   border-radius: 10Px;
   background-color: #EFEFEF;
   transition: .3s ease-in;
   cursor: pointer;
   
+  
 }
-
-
 
 .card-title {
   padding-top: 15px;
@@ -249,20 +219,16 @@ a:hover {
 }
 
 
-
 .card-img {
-  
   border-radius: 10px;
   width: 100%;
   height: 50%;
   object-fit: cover;
-
 }
 
 .card:hover {
   transform: scale(1.1);
   transition: .3s ease-in;
-  /* opacity: 0.8; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -271,8 +237,6 @@ a:hover {
   background-color:#2F2E41;
   height: 100vh;
   min-height: fit-content;
-  
- 
 }
 .contact-me {
   color:aliceblue ;
@@ -283,11 +247,20 @@ a:hover {
   color: #F9A826;
 }
 
+.tech-div {
+  display: flex;
+  justify-content: space-evenly;
 
+}
 
-
-
-
+.tech-used {
+  width: 90px;
+  height: 60px;
+  background-color: white;
+  color: #2F2E41;
+  border-radius: 25px;
+  text-align: center;
+}
 
 .contact-cont {
   display: flex;
@@ -300,10 +273,6 @@ a:hover {
   background-color:#2F2E41;
 }
 
-/* .contact-form {
-  width: 60vw;
-} */
-
 .contact-icons-div {
   margin-top: 30px;
  }
@@ -315,8 +284,6 @@ a:hover {
   padding: 8px;
 }
 
-
-
 .input {
   width: 100%;
   border-radius: 10px;
@@ -324,13 +291,11 @@ a:hover {
 }
 
 .send-btn {
-  
   background-color: #F9A826;
-  color: aliceblue;
-  
+  color: #EFEFEF;
+  border: none;
   width: 40%;
   border-radius: 10px;
-  
   font-size: 1.2rem;
   cursor: pointer;
   padding:5px;
@@ -339,22 +304,19 @@ a:hover {
 }
 
 .send-btn:hover { 
-  background-color: aliceblue;
+  background-color: #EFEFEF;
   color: orange;
-    opacity: 0.8;
-    transform: scale(1.1);
+  opacity: 0.8;
+  transform: scale(1.1);
  }
 
- 
-.icon {
+ .icon {
  width : 30px;
- 
 }
 
 .icon:hover {
-    opacity: 1;
-    transform: scale(1.2);
-    
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 @keyframes slidein {
@@ -380,7 +342,6 @@ footer {
 
 @media only screen and (max-width: 800px) {
 
-  
   .burger-icon {
     position: absolute;
     top: 20px;
@@ -402,8 +363,7 @@ footer {
     font-size: 2rem;
   }
 
-  
-  p {
+   p {
     font-size: 0.8rem;
   }
 
@@ -413,16 +373,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
   }
 
   .icon{
     width:20px ;
     padding-top: 20px;
   }
-
-  
 
   .topLogo {
    width: 300px;
@@ -435,18 +391,14 @@ footer {
 
 }
 
-.alice-blue{
-  color:aliceblue;
-  /* text-align: left;
-  padding-left: 90px; */
-  padding-left: 0;
+.intro{
+  color: #F9A826;
+  
 }
 
 .about-section {
 display: flex;
 flex-direction: column;
-/* justify-content: center; */
-/* align-items: center; */
 min-height: fit-content;
 }
 
@@ -472,8 +424,6 @@ min-height: fit-content;
   justify-content: space-around;
 } 
 
-  
-
 .profilePic{
     height: 120px;
     margin-top: 5px;
@@ -482,14 +432,12 @@ min-height: fit-content;
 }
 .bio-div {
   width: 100%;
-  
   align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid white;
   margin: auto;
-  
 }
 
 
@@ -503,19 +451,13 @@ min-height: fit-content;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
-
-
 .send-btn {
-  
   background-color: #F9A826;
   color: aliceblue;
-  
   width: 40%;
   border-radius: 10px;
-  
   font-size: 1.2rem;
   cursor: pointer;
   padding:5px;
@@ -523,8 +465,7 @@ min-height: fit-content;
   transition: 0.4s ease-in-out;
 }
 
-
-  .card-cont {
+.card-cont {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -537,21 +478,16 @@ min-height: fit-content;
 #pop-up {
   overflow: hidden;
   display: none;
-  
   width: 200px;
   position: fixed;
   bottom: 25px;
   right: 25px;
   border-radius: 10px;
-  
   background-color: rgba(30,161,161);
   opacity: 0.8;
- 
-  align-items: center;
+ align-items: center;
   justify-content: center;
   cursor: pointer;
-
-  
 }
 
 .pop-msg {
@@ -559,7 +495,6 @@ min-height: fit-content;
   font-size: 1.2rem;
   color: white;
   text-align: center;
- 
 }
 
 
