@@ -201,15 +201,14 @@ a:hover {
   transition: .3s ease-in;
   cursor: pointer;
   
-  
 }
 
 .card-title {
-  padding-top: 15px;
+  padding-top: 7px;
 }
 
 .card-text {
-  padding:5px;
+  /* padding:5px; */
 }
 
 .card-cont {
