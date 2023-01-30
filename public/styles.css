@@ -48,13 +48,11 @@ header ul {
 } 
 
 .burger-icon {
-  
   position: absolute;
   top: 15px;
   right: 15px;
   height: 40px;
   z-index: 2;
-  
 }
 
 header ul.open{
