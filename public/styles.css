@@ -76,7 +76,7 @@ header ul.open{
 a {
   color: #072227;
   font-family: 'Montserrat' ,sans-serif;
-  margin: 10px 20px;
+  /* margin: 10px 20px; */
   text-decoration: none;
 }
 
@@ -192,8 +192,8 @@ a:hover {
 
 .card {
   margin-top: 40px;
-  width: 350px;
-  height:450px;
+  width: 370px;
+  height:550px;
   border-radius: 10Px;
   background-color: #EFEFEF;
   transition: .3s ease-in;
@@ -219,6 +219,17 @@ a:hover {
   width: 100%;
   height: 50%;
   object-fit: cover;
+}
+
+.card-icon {
+  
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card icon {
+  margin-right: 10px;
 }
 
 .card:hover {
