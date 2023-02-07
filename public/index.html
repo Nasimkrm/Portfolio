@@ -1,214 +1,218 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nassim Karimi</title>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@500&family=Parisienne&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap" rel="stylesheet">
-<link href="toastr.css" rel="stylesheet"/>
-
-
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat:wght@500&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link href="toastr.css" rel="stylesheet" />
   </head>
   <body>
+    <header>
+      <div class="dropdown">
+        <a class="burger" href=""
+          ><img class="burger-icon" src="images/menu.png" alt=""
+        /></a>
+        <ul>
+          <a class="nav-link" href="#about-me">About Me</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </ul>
+      </div>
+    </header>
 
-<header>
-  <div class="dropdown">
-  <a  class="burger" href=""><img class="burger-icon" src="images/menu.png" alt=""></a>
-  
-  <ul>
-    <a class="nav-link"  href="#about-me">About Me</a>
-    <a class="nav-link" href="#projects">Projects</a>
-    <a class="nav-link" href="#contact">Contact Me</a>
-  </ul>
-</div>
-</header>
+    <div class="top-container">
+      <div class="top-container-heading">
+        <h1>
+          <span class="fname">Nassim</span> <span class="lname"> Karimi </span>
+        </h1>
+        <p>Software developer and designer</p>
+        <div class="btn-div">
+          <a
+            href="https://twitter.com/NassimKarimi1"
+            type="button"
+            role="button"
+            target="_blank"
+          >
+            <img class="icon" src="images/twitter.png" alt="twitterIcon" />
+          </a>
+          <a href="https://github.com/Nasimkrm">
+            <img class="icon" src="images/github-logo.png" alt="github-logo" />
+          </a>
 
-
-<div class="top-container">
-  <!-- <div class="name section"> -->
-  
-  <div class="top-container-heading">
-  <h1><span class="fname">Nassim</span> <span class="lname" > Karimi </span></h1>
-  <p>Software developer and designer</p>
- 
-  <div class="btn-div">
-  <a  href="https://twitter.com/NassimKarimi1" type="button" role="button" target="_blank">
-    <img class="icon" src="images/twitter.png" alt="twitterIcon">
-  </a>
-
-  <a  href="https://github.com/Nasimkrm">
-    <img  class="icon" src="images/github-logo.png" alt="github-logo">
-  </a>
-
-  <a href="https://www.linkedin.com/in/nassimkarimi/" target="_blank">
-    <img class="icon" src="images/linkedin.png" alt="linkedin-icon">
-  </a>
-</div>
-</div>
-  <img class="topLogo" src="images/logo1.svg" alt="topLogo">
-</div>
-
-
-
-  <div id="about-me" class="about-section">
-    
-   <h1 class="section-header intro">Hi, I'm Nassim.</h1>
-   
-   <div class="about-content">
-     <img class="profilePic" src="images/crpProfile.png" alt="profilePic">
-     <div class="bio-div">
-    <p>I'm passionate about JavaScript, full stack development and learning new technologies.</p>
-    
+          <a href="https://www.linkedin.com/in/nassimkarimi/" target="_blank">
+            <img class="icon" src="images/linkedin.png" alt="linkedin-icon" />
+          </a>
+        </div>
+      </div>
+      <img class="topLogo" src="images/logo1.svg" alt="topLogo" />
     </div>
-  </div>
 
-  <div class="skills-section">
-    
-    <img class="skills-icon" src="images/html5-brands.svg" alt="">
-      <img class="skills-icon" src="images/css3-alt-brands.svg" alt="">
-      <img class="skills-icon" src="images/js-brands.svg" alt="">
-      
-      <img class="skills-icon" src="images/react-brands.svg" alt="">
-      <img class="skills-icon" src="images/python-brands.svg" alt="">
-      <img class="skills-icon" src="images/c-solid.svg" alt="">
-      <img class="skills-icon" src="images/figma.svg" alt="">
-      
-   
-  </div>
-</div>
+    <div id="about-me" class="about-section">
+      <h1 class="section-header intro">Hi, I'm Nassim.</h1>
 
-
-   <div id="projects" class="projects section">
-
-     <h1 class="section-header projects">Projects</h1>
-<!-- Maybe card hover scale style would work better on whole card rather than just img -->
-     <div class="card-cont">
-
-      <a href="https://coffee-club-694e5.firebaseapp.com/" target="_blank">
-        <div class="card">
-          <img class="card-img" src="images/coffeeClub.png" alt="">
-          <div class="tech-div">
-            <div class="tech-used"><h5>HTML5</h5></div>
-            <div class="tech-used"><h5>CSS3</h5></div>
-            <div class="tech-used"><h5>JavaScript</h5></div>
-          </div>
-          <h3 class="card-title">Coffee Club </h3>
-          <p class="card-text">A business website for local café in Montpellier, France made from scratch.</p>
-          <div class="card-icon">
-          <a href="https://github.com/Nasimkrm/CoffeeC">
-            <img class="icon"  src="images/github-logo.png" alt="">
-          </a>
+      <div class="about-content">
+        <img class="profilePic" src="images/crpProfile.png" alt="profilePic" />
+        <div class="bio-div">
+          <p>
+            I'm passionate about JavaScript, full stack development and learning
+            new technologies.
+          </p>
         </div>
-        </div>
-        </a>
-      
-      
-       
-      
-      <a href="https://todo-list-app-6e216.web.app/" target="_blank"><div class="card">
-        <img class="card-img" src="images/toDoApp.png" alt="image">
-        <div class="tech-div">
-          <div class="tech-used"><h5>React</h5></div>
-          <div class="tech-used"><h5>Redux</h5></div>
-          <div class="tech-used"><h5>Firebase</h5></div>
-        </div>
-        <h3 class="card-title">ToDo List Application</h3>
-        <p class="card-text">A todo list application allowing users to login to their profile, create new tasks and mark them complete/incomplete.</p>
-        <div class="card-icon">
-          <a href="https://github.com/Nasimkrm/todo-training-app">
-            <img class="icon"  src="images/github-logo.png" alt="">
-          </a>
-        </div>
-
-      </div></a>
-
-      <a href="https://maryam-shojaei-website.web.app/" target="_blank">
-        <div class="card">
-          <img class="card-img" src="images/maryamShojaei.png" alt="">
-          <div class="tech-div">
-            <div class="tech-used"><h5>HTML5</h5></div>
-            <div class="tech-used"><h5>CSS3</h5></div>
-            <div class="tech-used"><h5>JavaScript</h5></div>
-          </div>
-          <h3 class="card-title">React Web App</h3>
-          <p class="card-text">A business website for professional yoga teacher Maryam Shojaei. The language is Farsi.</p>
-          <div class="card-icon">
-            <a href="https://github.com/Nasimkrm/Maryam-Shojaei-Yoga-and-Meditation">
-              <img class="icon"  src="images/github-logo.png" alt="">
-            </a>
-          </div>
-        </div>
-      </a>
-
-      
-
-      
-       
-      
-
-  </div>
-
-</div>
-    
-
-
-
-
-    <div id="contact" class="contact section">
-      <h1 class="section-header contact-me"><span class="contactInOrange">Contact</span> Me</h1>
-
-  <div class="contact-cont">
-      <form class="contact-form" action="https://formspree.io/f/mgedpbgl" method="post" name="Emailform">
-        <!-- Should Name: be a label rather than plain text? -->
-        <label for="Name">Name: </label> <br><br>
-        <input class="input" type="text" size="19" name="ContactName" placeholder="Name"><br><br>
-        <label for="email">Email address:</label><br><br>
-        <input class="email" type="email" placeholder="Email"><br><br>
-        <label for="Message"> Message: </label> <br><br>
-        <textarea class="input" name="ContactMessage" cols="40" rows="10" placeholder="Message"></textarea>
-        <br><br>
-        <input class="send-btn" type="submit" value="Send">
-        
-      </form>
-
-      
-  </div>
-
-     
-
-        
       </div>
 
-      <div class="contact-icons-div">
-        <a  href="https://twitter.com/NassimKarimi1" type="button" role="button" target="_blank">
-          <img class="icon" src="images/twitter.png" alt="twitterIcon">
-        </a>
-        
-        <a  href="https://github.com/Nasimkrm">
-          <img  class="icon" src="images/github-logo.png" alt="github-logo">
-        </a>
+      <div class="skills-section">
+        <img class="skills-icon" src="images/html5-brands.svg" alt="" />
+        <img class="skills-icon" src="images/css3-alt-brands.svg" alt="" />
+        <img class="skills-icon" src="images/js-brands.svg" alt="" />
 
-        <a href="https://www.linkedin.com/in/nassimkarimi/" target="_blank">
-          <img class="icon" src="images/linkedin.png" alt="linkedin-icon">
-        </a>
-
+        <img class="skills-icon" src="images/react-brands.svg" alt="" />
+        <img class="skills-icon" src="images/python-brands.svg" alt="" />
+        <img class="skills-icon" src="images/c-solid.svg" alt="" />
+        <img class="skills-icon" src="images/figma.svg" alt="" />
+      </div>
     </div>
 
-      <footer class="footer"> &#169; Nassim Karimi - 2022 </footer>
-      
-    
-    
+    <div id="projects" class="projects section">
+      <h1 class="section-header projects">Projects</h1>
+      <div class="card-cont">
+        <a href="https://coffee-club-694e5.firebaseapp.com/" target="_blank">
+          <div class="card">
+            <img class="card-img" src="images/coffeeClub.png" alt="" />
+            <div class="tech-div">
+              <div class="tech-used"><h5>HTML5</h5></div>
+              <div class="tech-used"><h5>CSS3</h5></div>
+              <div class="tech-used"><h5>JavaScript</h5></div>
+            </div>
+            <h3 class="card-title">Coffee Club</h3>
+            <p class="card-text">
+              A single-page business web application for local café in
+              Montpellier, France made from scratch.
+            </p>
+            <div class="card-icon">
+              <a href="https://github.com/Nasimkrm/CoffeeC">
+                <img class="icon" src="images/github-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </a>
 
-    <div id="pop-up">
-      <h2 class="pop-msg"> Coming soon... </h2>
+        <a href="https://todo-list-app-6e216.web.app/" target="_blank"
+          ><div class="card">
+            <img class="card-img" src="images/toDoApp.png" alt="image" />
+            <div class="tech-div">
+              <div class="tech-used"><h5>React</h5></div>
+              <div class="tech-used"><h5>Redux</h5></div>
+              <div class="tech-used"><h5>Firebase</h5></div>
+            </div>
+            <h3 class="card-title">ToDo List Application</h3>
+            <p class="card-text">
+              A todo list application allowing users to login to their profile,
+              create new tasks and mark them complete/incomplete.
+            </p>
+            <div class="card-icon">
+              <a href="https://github.com/Nasimkrm/todo-training-app">
+                <img class="icon" src="images/github-logo.png" alt="" />
+              </a>
+            </div></div
+        ></a>
+
+        <a href="https://maryam-shojaei-website.web.app/" target="_blank">
+          <div class="card">
+            <img class="card-img" src="images/maryamShojaei.png" alt="" />
+            <div class="tech-div">
+              <div class="tech-used"><h5>HTML5</h5></div>
+              <div class="tech-used"><h5>CSS3</h5></div>
+              <div class="tech-used"><h5>JavaScript</h5></div>
+            </div>
+            <h3 class="card-title">React Web App</h3>
+            <p class="card-text">
+              A business website for professional yoga teacher Maryam Shojaei.
+              The language is Farsi.
+            </p>
+            <div class="card-icon">
+              <a
+                href="https://github.com/Nasimkrm/Maryam-Shojaei-Yoga-and-Meditation"
+              >
+                <img class="icon" src="images/github-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
 
+    <div id="contact" class="contact section">
+      <h1 class="section-header contact-me">
+        <span class="contactInOrange">Contact</span> Me
+      </h1>
+
+      <div class="contact-cont">
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mgedpbgl"
+          method="post"
+          name="Emailform"
+        >
+          <label for="Name">Name: </label> <br /><br />
+          <input
+            class="input"
+            type="text"
+            size="19"
+            name="ContactName"
+            placeholder="Name"
+          /><br /><br />
+          <label for="email">Email address:</label><br /><br />
+          <input class="email" type="email" placeholder="Email" /><br /><br />
+          <label for="Message"> Message: </label> <br /><br />
+          <textarea
+            class="input"
+            name="ContactMessage"
+            cols="40"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <br /><br />
+          <input class="send-btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+
+    <div class="contact-icons-div">
+      <a
+        href="https://twitter.com/NassimKarimi1"
+        type="button"
+        role="button"
+        target="_blank"
+      >
+        <img class="icon" src="images/twitter.png" alt="twitterIcon" />
+      </a>
+
+      <a href="https://github.com/Nasimkrm">
+        <img class="icon" src="images/github-logo.png" alt="github-logo" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/nassimkarimi/" target="_blank">
+        <img class="icon" src="images/linkedin.png" alt="linkedin-icon" />
+      </a>
+    </div>
+
+    <footer class="footer">&#169; Nassim Karimi - 2022</footer>
+
+    <!-- <div id="pop-up">
+      <h2 class="pop-msg">Coming soon...</h2>
+    </div> -->
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="animations.js"></script>

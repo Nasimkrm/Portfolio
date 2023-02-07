@@ -1,15 +1,14 @@
 body {
-  background-color: #FBF8F1;
+  background-color: #fbf8f1;
   text-align: center;
   margin: 0;
-  font-family:'Montserrat', serif;
+  font-family: "Montserrat", serif;
   line-height: 1.6;
   width: 100%;
   margin: 0;
   padding: 0;
   max-width: 100vw;
   overflow-x: hidden;
-  
 }
 
 html {
@@ -27,9 +26,7 @@ html {
 h1 {
   font-weight: 200;
   font-size: 5rem;
-
 }
-
 
 header ul {
   overflow: hidden;
@@ -45,7 +42,7 @@ header ul {
   margin-top: 0;
   font-size: 1.3rem;
   box-sizing: border-box;
-} 
+}
 
 .burger-icon {
   position: absolute;
@@ -55,28 +52,26 @@ header ul {
   z-index: 2;
 }
 
-header ul.open{
+header ul.open {
   height: 60px;
-  -webkit-box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.4); 
-  box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.4);
 }
 
 .nav-link:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #F9A826;
+  box-shadow: 0 0 15px #f9a826;
 }
 
 .nav-link:hover {
-  color:#F9A826 ;
-  box-shadow: 0 0 5px #F9A826;
-  text-shadow: 0 0 5px #F9A826;
+  color: #f9a826;
+  box-shadow: 0 0 5px #f9a826;
+  text-shadow: 0 0 5px #f9a826;
 }
-
 
 a {
   color: #072227;
-  font-family: 'Montserrat' ,sans-serif;
-  /* margin: 10px 20px; */
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
 
@@ -84,8 +79,6 @@ a:hover {
   color: black;
   text-decoration: none;
 }
-
-
 
 .top-container {
   display: flex;
@@ -99,28 +92,25 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .topLogo {
-  
   width: 600px;
   display: inline-block;
   animation-name: slidein;
   animation-duration: 2.5s;
-  animation-direction:reverse;
+  animation-direction: reverse;
   animation-iteration-count: 1;
 }
 
 .lname {
-  
-  font-family:'Montserrat', serif;
+  font-family: "Montserrat", serif;
 }
 
 .fname {
   font-weight: 200;
-  font-family: 'Parisienne', cursive;
-  color:#F9A826 ;
+  font-family: "Parisienne", cursive;
+  color: #f9a826;
 }
 
 .btn-div {
@@ -133,28 +123,26 @@ a:hover {
   min-height: 100vh;
 }
 
-.intro{
-  color: #F9A826;
-  
+.intro {
+  color: #f9a826;
 }
 
 #about-me {
-  background-color: #2F2E41;
+  background-color: #2f2e41;
   box-sizing: border-box;
-  padding: 50px 50px;
+  padding-bottom: 50px;
   margin: 0 auto;
   width: 100%;
   overflow-x: hidden;
   overflow-y: visible;
 }
 
-.profilePic 
-{
-   height: 300px;
+.profilePic {
+  height: 300px;
 }
 
 .about {
-  color: #F9A826;
+  color: #f9a826;
 }
 
 .about-section {
@@ -171,48 +159,39 @@ a:hover {
 
 .skills-section {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   margin-top: 50px;
-}  
+}
 
 .skills-icon {
   width: 50px;
 }
 
 #projects {
-  margin: 0 0 100px 0;
+  margin: 0 0 80px 0;
   display: flex;
   flex-direction: column;
-}
-
-.projects {
-  text-align: center;
-  margin-left: 0;
 }
 
 .card {
   margin-top: 40px;
   width: 370px;
-  height:550px;
-  border-radius: 10Px;
-  background-color: #EFEFEF;
-  transition: .3s ease-in;
+  height: 540px;
+  border-radius: 10px;
+  background-color: #efefef;
+  transition: 0.3s ease-in;
   cursor: pointer;
-  
 }
 
 .card-title {
   padding-top: 7px;
 }
 
-
-
 .card-cont {
   display: flex;
- flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
-
 
 .card-img {
   border-radius: 10px;
@@ -222,48 +201,44 @@ a:hover {
 }
 
 .card-icon {
-  
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.card icon {
-  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-top: auto;
 }
 
 .card:hover {
   transform: scale(1.1);
-  transition: .3s ease-in;
+  transition: 0.3s ease-in;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #contact {
-  color: #F9A826;
-  background-color:#2F2E41;
+  color: #f9a826;
+  background-color: #2f2e41;
   height: 100vh;
   min-height: fit-content;
 }
 .contact-me {
-  color:aliceblue ;
+  color: aliceblue;
   text-align: center;
 }
 
-.contactInOrange{
-  color: #F9A826;
+.contactInOrange {
+  color: #f9a826;
 }
 
 .tech-div {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .tech-used {
   width: 90px;
   height: 60px;
   background-color: white;
-  color: #2F2E41;
+  color: #2f2e41;
   border-radius: 25px;
   text-align: center;
 }
@@ -276,13 +251,12 @@ align-items: center;
   height: 60vh;
   margin-bottom: 25px;
   padding-bottom: 25px;
-  background-color:#2F2E41;
+  background-color: #2f2e41;
 }
 
 .contact-icons-div {
   margin-top: 30px;
- }
-
+}
 
 .email {
   width: 100%;
@@ -297,27 +271,27 @@ align-items: center;
 }
 
 .send-btn {
-  background-color: #F9A826;
-  color: #EFEFEF;
+  background-color: #f9a826;
+  color: #efefef;
   border: none;
   width: 40%;
   border-radius: 10px;
   font-size: 1.2rem;
   cursor: pointer;
-  padding:5px;
+  padding: 5px;
   margin-top: 2px;
   transition: 0.4s ease-in-out;
 }
 
-.send-btn:hover { 
-  background-color: #EFEFEF;
+.send-btn:hover {
+  background-color: #efefef;
   color: orange;
   opacity: 0.8;
   transform: scale(1.1);
- }
+}
 
- .icon {
- width : 30px;
+.icon {
+  width: 30px;
 }
 
 .icon:hover {
@@ -335,33 +309,29 @@ align-items: center;
   }
 }
 
-
 footer {
   margin-top: 20px;
   padding-bottom: 8px;
   margin-bottom: 5px;
-  
 }
-
 
 /* Responsive styles */
 
 @media only screen and (max-width: 800px) {
-
   .burger-icon {
     position: absolute;
     top: 20px;
     right: 20px;
     width: 25px;
   }
-  
+
   header ul {
     flex-direction: column;
   }
 
-  header ul.open{
+  header ul.open {
     height: 50px;
-    font-size:0.5rem;
+    font-size: 0.5rem;
     padding: 25px;
   }
 
@@ -369,85 +339,80 @@ footer {
     font-size: 2rem;
   }
 
-   p {
+  p {
     font-size: 0.8rem;
   }
 
-
-  .top-container{
+  .top-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .icon{
-    width:20px ;
+  .icon {
+    width: 20px;
     padding-top: 20px;
   }
 
   .topLogo {
-   width: 300px;
-  position: relative;
-  display: inline-block;
-  animation-name: slidein;
-  animation-duration: 2.5s;
-  animation-direction:reverse;
-  animation-iteration-count: 1;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    animation-name: slidein;
+    animation-duration: 2.5s;
+    animation-direction: reverse;
+    animation-iteration-count: 1;
+  }
 
-}
+  .intro {
+    color: #f9a826;
+  }
 
-.intro{
-  color: #F9A826;
-  
-}
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+  }
 
-.about-section {
-display: flex;
-flex-direction: column;
-min-height: fit-content;
-}
+  .skills-section {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.skills-section {
-  display: flex;
-  justify-content: space-between;
-}  
+  .skills-icon {
+    width: 30px;
+    margin-right: 5px;
+    color: white;
+  }
 
-.skills-icon {
-  width: 30px;
-  margin-right: 5px;
-  color: white;
-}
+  #contact {
+    color: #f9a826;
+    background-color: #2f2e41;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
-
-#contact {
-  color: #F9A826;
-  background-color:#2F2E41;
-  height: fit-content;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-} 
-
-.profilePic{
+  .profilePic {
     height: 120px;
     margin-top: 5px;
     margin-bottom: 20px;
     padding-top: 0;
-}
-.bio-div {
-  width: 100%;
-  align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid white;
-  margin: auto;
-}
+  }
+  .bio-div {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    margin: auto;
+  }
 
-
- .section-header{
+  .section-header {
     text-align: center;
     padding-top: 5px;
   }
@@ -457,26 +422,25 @@ min-height: fit-content;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.send-btn {
-  background-color: #F9A826;
-  color: aliceblue;
-  width: 40%;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  padding:5px;
-  margin-top: 2px;
-  transition: 0.4s ease-in-out;
-}
+  .send-btn {
+    background-color: #f9a826;
+    color: aliceblue;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 2px;
+    transition: 0.4s ease-in-out;
+  }
 
-.card-cont {
+  .card-cont {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
 }
 
 /* Pop-up */
@@ -489,18 +453,16 @@ min-height: fit-content;
   bottom: 25px;
   right: 25px;
   border-radius: 10px;
-  background-color: rgba(30,161,161);
+  background-color: rgba(30, 161, 161);
   opacity: 0.8;
- align-items: center;
+  align-items: center;
   justify-content: center;
   cursor: pointer;
 }
 
 .pop-msg {
-  font: 'Montserrat';
+  font: "Montserrat";
   font-size: 1.2rem;
   color: white;
   text-align: center;
 }
-
-
