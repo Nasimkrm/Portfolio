@@ -28,44 +28,30 @@ h1 {
   font-size: 5rem;
 }
 
-header ul {
-  overflow: hidden;
-  height: 0;
-  position: absolute;
+nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  right: 0px;
-  top: 0px;
-  transition: 0.3s ease-in-out;
-  width: 100vw;
-  margin-top: 0;
-  font-size: 1.3rem;
-  box-sizing: border-box;
+  padding: 0 20px;
+
+  max-width: 80rem;
 }
 
-.burger-icon {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  height: 40px;
-  z-index: 2;
+nav img {
+  width: 60px;
+  object-fit: cover;
+  margin-top: 15px;
 }
 
-header ul.open {
-  height: 60px;
-  -webkit-box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.4);
-  box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.4);
-}
-
-.nav-link:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #f9a826;
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
 }
 
 .nav-link:hover {
   color: #f9a826;
-  box-shadow: 0 0 5px #f9a826;
   text-shadow: 0 0 5px #f9a826;
 }
 
@@ -221,7 +207,7 @@ a:hover {
 .card:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 #contact {
@@ -314,23 +300,6 @@ footer {
 /* Responsive styles */
 
 @media only screen and (max-width: 800px) {
-  .burger-icon {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 25px;
-  }
-
-  header ul {
-    flex-direction: column;
-  }
-
-  header ul.open {
-    height: 50px;
-    font-size: 0.5rem;
-    padding: 25px;
-  }
-
   h1 {
     font-size: 2rem;
   }
