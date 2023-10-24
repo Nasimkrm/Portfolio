@@ -139,6 +139,7 @@ a:hover {
 
 .profilePic {
   height: 300px;
+  border-radius: 50%;
 }
 
 .about {
@@ -168,29 +169,26 @@ a:hover {
 }
 
 #projects {
-  margin: 0 0 80px 0;
+  margin-bottom: 80px;
+
   display: flex;
   flex-direction: column;
 }
 
 .card {
   margin-top: 40px;
-  width: 370px;
-  height: 540px;
+  width: 350px;
+  height: 500px;
   border-radius: 10px;
   background-color: #efefef;
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
-.card-title {
-  padding-top: 7px;
-}
-
 .card-cont {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .card-img {
@@ -200,12 +198,24 @@ a:hover {
   object-fit: cover;
 }
 
-.card-icon {
+.tech-div {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
+
+  justify-content: space-evenly;
+  padding: 0 5px 0 5px;
+}
+
+.tech-used {
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  color: #2f2e41;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-top: auto;
+  font-size: 0.8rem;
 }
 
 .card:hover {
@@ -227,20 +237,6 @@ a:hover {
 
 .contactInOrange {
   color: #f9a826;
-}
-
-.tech-div {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.tech-used {
-  width: 90px;
-  height: 60px;
-  background-color: white;
-  color: #2f2e41;
-  border-radius: 25px;
-  text-align: center;
 }
 
 .contact-cont {
@@ -291,7 +287,7 @@ a:hover {
 }
 
 .icon {
-  width: 30px;
+  width: 25px;
 }
 
 .icon:hover {
